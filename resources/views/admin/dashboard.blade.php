@@ -223,7 +223,7 @@
                                 </thead>
                                 <tbody>
                                     
-                                @foreach($orders as $count => $order)
+                                @foreach($lastfive as $count => $order)
                                     <tr>
                                         <th scope="row">{{$count+1}}</th>
                                         <td>{{$order->refno}}</td>

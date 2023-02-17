@@ -6,7 +6,7 @@
 <div class="header-area mb-4 light-header">
     <div class="row align-items-center">
         <div class="mobile-logo d_none_lg">
-            <a href="{{route('customer.dashboard')}}"><img src="{{asset('images/logo.png')}}" alt="logo"></a>
+            <a href="{{route('customer.dashboard')}}"><img style="max-width:120px; !important" src="{{asset('images/logo.png')}}" alt="logo"></a>
         </div>
 
         <!--==================================*

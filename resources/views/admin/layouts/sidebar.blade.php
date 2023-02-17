@@ -1,7 +1,7 @@
 <div class="sidebar-menu light-sidebar">
     <div class="sidebar-header">
         <div class="logo">
-            <a href="{{route('admin.dashboard')}}"><img src="{{asset('images/logo.png')}}" alt="logo"></a>
+            <a href="{{route('admin.dashboard')}}"><img src="{{asset('images/logo.png')}}" style="max-width:120px; !important" alt="logo"></a>
         </div>
     </div>
     <div class="main-menu">
