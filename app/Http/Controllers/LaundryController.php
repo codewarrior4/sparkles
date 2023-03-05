@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class LaundryController extends Controller
 {
     public function laundry(){
-        $laundry = Laundry::all();
+        $laundry = Laundry::where('customer_id', session('customer')->id)->get();
         $laundryItems = LaundryItem::all();
         $total = 0;
         foreach($laundry as $item){
